@@ -2,8 +2,8 @@ var Game = {
 	_display: null, // Main console window
 	_console: null, // For stats inventory ect
 	_menu: null, // For messages
+	_currentMap: null, // current map
 	_currentScreen: null, // Current rendring screen see screens.js
-
 	_screenWidth: 80, // default display width
 	_screenHeight: 24, // default display height
 

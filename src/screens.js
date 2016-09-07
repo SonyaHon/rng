@@ -13,6 +13,8 @@ Game.renderStats = function(player) {
 	Game.getConsole().drawText(1, 2, vsprintf("HP: %d/%d.", [player.getHp(), player.getMaxHp()]));
 	Game.getConsole().drawText(1, 3, vsprintf("ATK: %d.", [player.getAttackValue()]));
 	Game.getConsole().drawText(1, 4, vsprintf("DEF: %d.", [player.getDefenceValue()]));
+	Game.getConsole().drawText(1, 5, vsprintf("LVL: %d.",[player.getLvl()]));
+	Game.getConsole().drawText(1, 6, vsprintf("EXP: %d/%d", [player.getCurrentExp(), player.getExpNeeded()]));
 }
 
 Game.renderMessages = function(messages) {

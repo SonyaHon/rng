@@ -1,0 +1,3 @@
+/*
+	Some ready levels. Wich are not generated randomly.
+ */

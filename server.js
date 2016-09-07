@@ -6,6 +6,7 @@ var homepage = fs.readFileSync('index.html');
 
 server.on('request', function(req, res){
 	if(req.url === "/") {
+		console.log("client connected.");
 		res.writeHeader(200, {"Content-Type": "text/html"}); 
 		res.write(homepage); 
 		res.end();
@@ -24,4 +25,4 @@ server.on('request', function(req, res){
 	}
 });
 
-server.listen('1337', '127.0.0.1');
+server.listen('1337', '192.168.0.10');
