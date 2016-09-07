@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	background-color: black;
+	color: white;
+	font-family: monospace;
+}
+
+#header {
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background-color: black;
+	color: white;
+}
+
+#header a {
+	text-decoration: none;
+	color: white;
+	padding-right: 8%;
+	padding-left: 8%;
+	margin-top: 10px;
+	align: center;
+	display: inline-block;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey; 
+}
+
+#header #left {
+	border-left: none;
+}
+
+#header #right {
+	border-right: none;
+}
